@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +12,203 @@
     <link rel="stylesheet" href="styles/bootstrap.css">
     <script src="scripts/bootstrap.bundle.js" defer></script>
 </head>
+
 <body>
-    <h1>
-        HOLA mundo
-    </h1>
+
+
+
+    <header>
+        <!-- MENU DE NAVEGACION CON OPCION DE BUSQUEDA-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Admin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign up</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+    <!-- LAS TRES NOTICIAS-->
+    <section>
+
+        <div class="container align-items-center mt-3">
+            <div class="row">
+
+                <!--NOTICIA UNO-->
+                <div class="col-4 col-md-4 col-sm-12 mb-3">
+
+                    <div class="card col-12" style="width: 18rem;">
+                        <img src="img/noticia1.jpeg" class="card-img-top" alt="noticia1">
+                        <div class="card-body">
+                            <h5 class="card-title">El camino más rápido para encontrar trabajo es la FP: nueve meses de
+                                media para el 54% de sus graduados</h5>
+                            <p class="card-text">La FP está demostrando ser una herramienta muy efectiva para acabar con
+                                dos grandes problemas: la escasez de talento especializado y el paro juvenil.</p>
+                            <a href="https://www.xataka.com/empresas-y-economia/objetivo-era-mejorar-empleo-juvenil-esta-logrando-54-4-graduados-fp-encuentra-empleo-nueve-meses"
+                                class="btn btn-primary">Leer mas</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!--NOTICIA DOS-->
+                <div class="col-4 col-md-4 col-sm-12 mb-3">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/noticia2.jpeg" class="card-img-top" alt="noticia2">
+                        <div class="card-body">
+                            <h5 class="card-title">Playtron quiere ser el Android de los gamers: es el sistema operativo
+                                de las "súper consolas" que van más allá de la Steam Deck </h5>
+                            <p class="card-text">Un sistema operativo para gobernarlos a todos (los gamers).</p>
+                            <a href="https://www.xataka.com/videojuegos/playtron-quiere-ser-android-gamers-sistema-operativo-super-consolas-que-van-alla-steam-deck"
+                                class="btn btn-primary">Leer mas</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--NOTICIA TRES-->
+                <div class="col-4 col-md-4 col-sm-12 mb-3">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/noticia 3.jpeg" class="card-img-top" alt="noticia3">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                https://www.xataka.com/empresas-y-economia/dell-debian-elegir-teletrabajo-ascensos-ir-a-oficina-han-descubierto-que-cercana-esta-otro-estado
+                            </h5>
+                            <p class="card-text">Dell está protagonizando uno de los llamamientos de vuelta a la oficina
+                                más polémicos. Muchos de sus empleados tendrán que mudarse o renunciar a sus empleos
+                            </p>
+                            <a href="https://www.xataka.com/empresas-y-economia/dell-debian-elegir-teletrabajo-ascensos-ir-a-oficina-han-descubierto-que-cercana-esta-otro-estado"
+                                class="btn btn-primary">Leer mas</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- CIERRE DE-->
+            </div>
+        </div>
+
+
+        <!--Otras paginas de noticias...-->
+    </section>
+
+
+
+    <hr>
+    <section class="">
+
+        <h1 class="text-center">Otras paginas de noticias</h1>
+
+        <div class="container text-center">
+            <div class="row text-center">
+
+                <!-- NOTIICIAS NACIONALES-->
+                <div class="col-6 col-sm-12">
+                    <h3>Nacionales</h3>
+
+                    <!--BOGOTA-->
+                    <div class="row">
+                        <button class="btn btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBogota"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            > Bogota
+                        </button>
+                        <div class="collapse" id="collapseBogota">
+                            <div class="card card-body">
+                                <ul>
+                                    <li><a href="">EL tiempo</a></li>
+                                    <li><a href="">El espectador</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--NEIVA-->
+                    <div class="row">
+                        <button class="btn btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNeiva"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            > Neiva
+                        </button>
+                        <div class="collapse" id="collapseNeiva">
+                            <div class="card card-body">
+                                <ul>
+                                    <li><a href="">La nacion</a></li>
+                                    <li><a href="">Diario del huila</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--INTERNACIONALES-->
+                <div class="col-6 col-sm-12">
+                    <h3>Internacionales</h3>
+
+                    <!--USA-->
+                    <div class="row">
+                        <button class="btn btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEEUU"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            > EE.UU
+                        </button>
+                        <div class="collapse" id="collapseEEUU">
+                            <div class="card card-body">
+                                <ul>
+                                    <li><a href="">The New York Times</a></li>
+                                    <li><a href="">Los Angeles Times</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Argentina-->
+                    <div class="row">
+                        <button class="btn btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseArgentina" aria-expanded="false" aria-controls="collapseExample">
+                            > Argentina
+                        </button>
+                        <div class="collapse" id="collapseArgentina">
+                            <div class="card card-body">
+                                <ul>
+                                    <li><a href="">La nacion</a></li>
+                                    <li><a href="">El clarin</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
