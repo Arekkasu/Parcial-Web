@@ -6,3 +6,13 @@
 ul{
     list-style-type: none;
 }
+
+
+.periodico{
+    width: 500px;
+}
+
+#misiondiv{
+    margin-top: 20px;
+    padding: 0 120px;
+}

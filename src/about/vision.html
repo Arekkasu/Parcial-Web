@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--ESTILOS PROPIOS-->
+    <link rel="stylesheet" href="../../styles/style.css">
+    <script src="../../scripts/about.js" defer></script>
+    <!--BOOTRAP-->
+    <link rel="stylesheet" href="../../styles/bootstrap.css">
+    <script src="../../scripts/bootstrap.bundle.js" defer></script>
+</head>
+
+<body>
+
+
+
+    <header>
+        <!-- MENU DE NAVEGACION CON OPCION DE BUSQUEDA-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../../index.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../admin.html">Admin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../signup.html">Sign up</a>
+                        </li>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="mision.html">Mision</a></li>
+                                <li><a class="dropdown-item" href="vision.html">Vision</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="equipo.html">Equipo de trabajo</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <section class="container-fluid" id="misiondiv">
+        <div class="row">
+
+            <div class="col">
+                <article class="row">
+                    <div class="col">
+                        <img class="rounded float-start" src="https://raed.academy/wp-content/uploads/2021/02/futuro-incertidumbre-dstNtc.jpg" alt="vision" width="724"
+                            height="300">
+                    </div>
+                    <div class="col">
+                        <h3 class="editar">Vision</h3>
+                        <p class="editar">Ser la fuente de noticias más confiable e influyente a nivel global, impulsando una sociedad informada y comprometida. </p>
+                        <div class="row">
+                            <div class="btn btn-primary col" id="lettercolor">
+                                <p>Cambiar color Letra</p>
+                            </div>
+                            <div class="btn btn-primary col" id="lettersize">
+                                <p>Aumenta tamano letra</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+            </div>
+    </section>
+
+
+</body>
+
+</html>
