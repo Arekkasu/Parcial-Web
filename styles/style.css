@@ -16,3 +16,8 @@ ul{
     margin-top: 20px;
     padding: 0 120px;
 }
+
+.carrusel{
+    margin: 0 auto;
+    width: 1000px;
+}
