@@ -7,7 +7,7 @@
     <title>Document</title>
     <!--ESTILOS PROPIOS-->
     <link rel="stylesheet" href="../styles/style.css">
-    <script src="../scripts/about.js" defer></script>
+    <script src="../scripts/login.js" defer></script>
     <!--BOOTRAP-->
     <link rel="stylesheet" href="../styles/bootstrap.css">
     <script src="../scripts/bootstrap.bundle.js" defer></script>
@@ -68,12 +68,26 @@
     <section class="container-fluid text-center mt-3 border">
         <div class="row">
         <h2>Por favor ingrese sus credenciales para acceder al sistema</h2>
-        <form id="formulario" method="post">
+        <form id="login-form" method="post">
             <label>Nombre</label>
-            <input name="nombre" id="nombre" >
+            <input name="nombre" id="user" ><br>
             <label>Clave</label>
-            <input name="clave" id="clave" >
-            <button></button>
+            <input name="clave" id="pass" ><br>
+            <div class="container"><br>
+                <div class="row">
+                    <div class="col">
+                        <button id="login" >Login</button>
+                    </div>
+                    </div>
+                    <div class="col">
+                        <button id="signup">Signup</button>
+                    </div>
+                    <div class="col">
+                        <button id="inicio">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+            <br>
         </form>
 
         </div>
